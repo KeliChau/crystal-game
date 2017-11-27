@@ -1,2 +1,2 @@
-# Starwars RPG Game
-Use jQuery instead of Vanilla JavaScript to create a Star Wars-themed Role Playing Game.
+# Crystal Collector Game
+Use jQuery instead of Vanilla JavaScript to create a Crystal Collector Game.
