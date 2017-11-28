@@ -16,43 +16,41 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-5 subtitle">
+		<div class="col-md-12 subtitle">
 			How to Play the Crystal Collector Game
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-5 instructions">
-			You will be given a random number at the start of the game.
+		<div class="col-md-12 instructions">
+			- You will be given a random number at the start of the game.
 			<br/>
-			There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+			- There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
 			<br/>
-			You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+			- You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
 			<br/>
-			The value of each crystal is hidden from you until you click on it.
+			- The value of each crystal is hidden from you until you click on it.
 			<br/>
-			Each time when the game starts, the game will change the values of each crystal.
+			- Each time when the game starts, the game will change the values of each crystal.
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-md-12 crystals">
+			<p class="subtitle">Click on the Crystals to Play!</p>
+			<br/>
+			<img src="assets/img/redCrystal.png" id="red" width="100" height="100" alt="Red Crystal"/>
+			<br/>
+			<img src="assets/img/blueCrystal.png" id="blue" width="100" height="100" alt="Blue Crystal"/>
+			<br/>
+			<img src="assets/img/yellowCrystal.png" id="yellow" width="100" height="100" alt="Yellow Crystal"/>
+			<br/>
+			<img src="assets/img/greenCrystal.png" id="green" width="100" height="100" alt="Green Crystal"/>
 		</div>
-	</div>
-	</div>
-	<br/>
-	<div class="numberToWin">
-		<h2>Number to Win: <span id="randomNumber"></span></h2>
-	</div>
-	<br/>
-	<div class="winsAndLosses">
-		<h3>Wins: <span id="numberOfWins"></span></h3>
-		<h3>Losses: <span id="numberOfLosses"></span></h3>
-	</div>
-	<br/>
-	<div class="crystals">
-		<img src="assets/img/redCrystal.png" id="red" width="100" height="100" alt="Red Crystal"/>
-		<img src="assets/img/blueCrystal.png" id="blue" width="100" height="100" alt="Blue Crystal"/>
-		<img src="assets/img/yellowCrystal.png" id="yellow" width="100" height="100" alt="Yellow Crystal"/>
-		<img src="assets/img/greenCrystal.png" id="green" width="100" height="100" alt="Green Crystal"/>
-	</div>
-	<br/>
-	<div class="userScore">
-		<h2>Your Score: <span id="totalScore"></span></h2>
+		<div class="col-md-12 scoreRecord">
+			<p class="subtitle2">Number to Win:</p> <span id="randomNumber" class="score"></span>	
+			<p class="subtitle2">Your Score:</p> <span id="totalScore" class="score"></span>	
+			<p class="subtitle2">Wins:</p> <span id="numberOfWins" class="score"></span>
+			<p class="subtitle2">Losses:</p> <span id="numberOfLosses" class="score"></span>		
+		</div>	
 	</div>
 </body>
 </html>
