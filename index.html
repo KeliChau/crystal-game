@@ -2,9 +2,7 @@
 <html>
 <head>
 	<title>Crystal Collector Game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-	<script type="text/javascript" src="assets/javascript/crystal.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
@@ -21,21 +19,26 @@
 			<br/>
 			<li>Each time when the game starts, the game will change the values of each crystal.</li>
 	</div>
-	<div class="numberToMatch">
+	<br/>
+	<div class="numberToWin">
 		<h2>Number to Win: <span id="randomNumber"></span></h2>
 	</div>
+	<br/>
 	<div class="winsAndLosses">
 		<h3>Wins: <span id="numberOfWins"></span></h3>
 		<h3>Losses: <span id="numberOfLosses"></span></h3>
 	</div>
+	<br/>
 	<div class="crystals">
 		<img src="assets/img/redCrystal.png" id="red" width="100" height="100" alt="Red Crystal"/>
 		<img src="assets/img/blueCrystal.png" id="blue" width="100" height="100" alt="Blue Crystal"/>
 		<img src="assets/img/yellowCrystal.png" id="yellow" width="100" height="100" alt="Yellow Crystal"/>
 		<img src="assets/img/greenCrystal.png" id="green" width="100" height="100" alt="Green Crystal"/>
 	</div>
+	<br/>
 	<div class="userScore">
 		<h2>Your Score: <span id="totalScore"></span></h2>
 	</div>
+	<script type="text/javascript" src="assets/javascript/crystal.js"></script>
 </body>
 </html>

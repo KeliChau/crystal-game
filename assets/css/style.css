@@ -3,3 +3,27 @@
 	padding: 25px 25px 25px 25px;
 	border: solid 3px black;
 }
+
+.numberToWin{
+	width: 50%;
+	padding: 25px 25px 25px 25px;
+	border: solid 3px black;
+}
+
+.winsAndLosses{
+	width: 50%;
+	padding: 25px 25px 25px 25px;
+	border: solid 3px black;
+}
+
+.crystals{
+	width: 50%;
+	padding: 25px 25px 25px 25px;
+	border: solid 3px black;
+}
+
+.userScore{
+	width: 50%;
+	padding: 25px 25px 25px 25px;
+	border: solid 3px black;
+}
