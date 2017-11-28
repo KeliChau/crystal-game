@@ -44,7 +44,7 @@ $(document).ready(function(){
 
 	$('#yellow').on('click', function(){
 		userScore=userScore + num3;
-		console.log("New usreScore=" + userScore);
+		console.log("New userScore=" + userScore);
 		$('#totalScore').text(userScore);
 			if(userScore === Random){
 				win();
@@ -54,4 +54,15 @@ $(document).ready(function(){
 			}
 	})
 
+	$('#green').on('click', function(){
+		userScore=userScore + num4;
+		console.log("New userScore=" + userScore);
+		$('#totalScore').text(userScore);
+			if(userScore === Random){
+				win();
+			}
+			else if(userScore > Random){
+				lose();
+			}
+	})
 });
