@@ -74,5 +74,12 @@ $(document).ready(function(){
 	  	reset();
 	}
 
+	//Function and alert for losses
+	function loser(){
+		alert("Better luck next time!");
+		losses++;
+		$('#numberOfLosses').text(losses);
+		reset();
+	}
 
 });
