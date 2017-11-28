@@ -25,7 +25,7 @@ $(document).ready(function(){
 			if(userScore === Random){
 				win();
 			}
-			else if (userScore > Random){
+			else if(userScore > Random){
 				lose();
 			}
 	})
@@ -37,10 +37,21 @@ $(document).ready(function(){
 			if(userScore === Random){
 				win();
 			}
-			else if (userScore > Random){
+			else if(userScore > Random){
 				lose();
 			}
 	})
 
+	$('#yellow').on('click', function(){
+		userScore=userScore + num3;
+		console.log("New usreScore=" + userScore);
+		$('#totalScore').text(userScore);
+			if(userScore === Random){
+				win();
+			}
+			else if(userScore > Random){
+				lose();
+			}
+	})
 
 });
