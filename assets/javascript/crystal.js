@@ -23,10 +23,10 @@ $(document).ready(function(){
 		console.log("New userScore=" + userScore);
 		$('#totalScore').text(userScore);
 			if(userScore === Random){
-				win();
+				yay();
 			}
 			else if(userScore > Random){
-				lose();
+				loser();
 			}
 	})
 
@@ -35,10 +35,10 @@ $(document).ready(function(){
 		console.log("New userScore=" + userScore);
 		$('#totalScore').text(userScore);
 			if(userScore === Random){
-				win();
+				yay();
 			}
 			else if(userScore > Random){
-				lose();
+				loser();
 			}
 	})
 
@@ -47,10 +47,10 @@ $(document).ready(function(){
 		console.log("New userScore=" + userScore);
 		$('#totalScore').text(userScore);
 			if(userScore === Random){
-				win();
+				yay();
 			}
 			else if(userScore > Random){
-				lose();
+				loser();
 			}
 	})
 
@@ -59,10 +59,20 @@ $(document).ready(function(){
 		console.log("New userScore=" + userScore);
 		$('#totalScore').text(userScore);
 			if(userScore === Random){
-				win();
+				yay();
 			}
 			else if(userScore > Random){
-				lose();
+				loser();
 			}
 	})
+
+	//Function and alert for wins
+	function yay(){
+		alert("Good job! You won!");
+	 	wins++; 
+	  	$('#numberOfWins').text(wins);
+	  	reset();
+	}
+
+
 });
