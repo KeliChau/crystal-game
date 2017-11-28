@@ -1,7 +1,28 @@
-.instructions{
-	width: 50%;
+.title{
+	width: 100%;
+	margin: 25px 25px 25px 25px;
 	padding: 25px 25px 25px 25px;
-	border: solid 3px black;
+	font-family: "Amatic SC", arial, sans-serif;
+	color: #31C1CF;
+	font-size: 600%;
+	text-align: center;
+}
+
+.subtitle{
+	color: #31C1CF;
+	font-size: 250%;
+	font-family: "Quicksand", arial, sans-serif;
+	margin: 25px 25px 25px 25px;
+}
+
+.instructions{
+	width: 40%;
+	margin: 25px 25px 25px 25px;
+	padding: 25px 25px 25px 25px;
+	border: solid 3px #9DCF31;
+	font-family: tacoma;
+	color: #222;
+
 }
 
 .numberToWin{
