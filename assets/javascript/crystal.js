@@ -30,5 +30,17 @@ $(document).ready(function(){
 			}
 	})
 
+	$('#blue').on('click', function(){
+		userScore=userScore + num2;
+		console.log("New userScore=" + userScore);
+		$('#totalScore').text(userScore);
+			if(userScore === Random){
+				win();
+			}
+			else if (userScore > Random){
+				lose();
+			}
+	})
+
 
 });
