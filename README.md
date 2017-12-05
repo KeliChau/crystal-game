@@ -22,4 +22,4 @@ being set at zero.
 Add a total score when a user loses. Change page elements to remove scroll.
 
 ## Acknowledgements
-Demo/Example: homework_demos/crystalsCollector_demo.mp4
+<b>Demo/Example</b>: homework_demos/crystalsCollector_demo.mp4
