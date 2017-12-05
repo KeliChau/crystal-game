@@ -1,5 +1,5 @@
 # Crystal Collector Game
-A remake crystal collector based on jQuery instead of Vanilla JavaScript.
+A remake of the crystal collector game based on jQuery instead of Vanilla JavaScript.
 
 ## Game Play
 1. The player will be guessing an answer with numbers.
