@@ -1,6 +1,5 @@
 # Crystal Collector Game
-Use jQuery instead of Vanilla JavaScript to create a Crystal Collector Game.
-The game is a re-make based off the demo found here: homework_demos/crystalsCollector_demo.mp4
+A remake crystal collector based on jQuery instead of Vanilla JavaScript.
 
 ## Game Play
 1. The player will be guessing an answer with numbers.
@@ -23,3 +22,4 @@ being set at zero.
 Add a total score when a user loses. Change page elements to remove scroll.
 
 ## Acknowledgements
+Demo/Example: homework_demos/crystalsCollector_demo.mp4
