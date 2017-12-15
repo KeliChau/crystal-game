@@ -19,7 +19,8 @@ being set at zero.
 8. Each crystal will have a hidden value between 1 and 12.
 
 ## Future Plans
-Add a total score when a user loses. Change page elements to remove scroll.
++ Add a total score when a user loses.
++ Change page elements to remove scroll.
 
 ## Acknowledgements
 <b>Demo/Example</b>: homework_demos/crystalsCollector_demo.mp4
